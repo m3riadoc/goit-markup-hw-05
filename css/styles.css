@@ -83,9 +83,6 @@ img {
 
 .nav-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-link:active {
   position: relative;
   color: #404bbf;
 }
