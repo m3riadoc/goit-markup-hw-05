@@ -81,12 +81,12 @@ img {
   padding: 24px 0 24px;
 }
 
-.nav-link:hover {
+.active {
   position: relative;
   color: #404bbf;
 }
 
-.nav-link:hover::after {
+.active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -198,7 +198,6 @@ img {
 .action-btn:hover {
   background-color: #404bbf;
   color: #ffffff;
-  transform: scale(0.9);
 }
 
 .close-btn {
