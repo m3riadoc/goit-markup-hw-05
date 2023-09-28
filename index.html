@@ -53,7 +53,9 @@
       <section class="section-one">
         <div class="container solutions-container">
           <h1 class="main-header">Effective Solutions for Your Business</h1>
-          <button type="button" class="action-btn">Order Service</button>
+          <button type="button" class="action-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section-two">
@@ -406,5 +408,13 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+
+    <script src="./modal.js"></script>
   </body>
 </html>
