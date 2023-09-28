@@ -199,6 +199,7 @@ img {
 .action-btn:hover {
   background-color: #404bbf;
   color: #ffffff;
+  transform: scale(0.9);
 }
 
 .close-btn {
